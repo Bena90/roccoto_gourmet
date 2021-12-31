@@ -1,0 +1,135 @@
+/* Variables */
+.bena-nav {
+  background-color: rgba(0, 0, 0, 0.93);
+}
+
+.nav-text {
+  color: white;
+}
+
+.font-bena {
+  font-family: "Bad Script", cursive;
+}
+
+/* Variables */
+/* Main */
+main {
+  font-family: "Open Sans", sans-serif;
+  font-size: medium;
+}
+main img {
+  width: 100%;
+  height: 100%;
+}
+main .bg-bena {
+  background-color: rgba(0, 0, 0, 0.93);
+}
+@media (max-width: 600px) {
+  main #home h1 {
+    font-size: medium;
+  }
+}
+main #home .card-img-overlay h1 {
+  margin-top: 20%;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+}
+@media (max-width: 400px) {
+  main #home .card-img-overlay h1 {
+    font-size: 30px;
+  }
+}
+main #home .card-img-overlay p {
+  margin-left: 10rem;
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+}
+@media (max-width: 400px) {
+  main #home .card-img-overlay p {
+    margin-left: 4rem;
+    font-size: 18px;
+  }
+}
+main h2 {
+  font-style: italic;
+  font-weight: 500;
+  text-shadow: 0.5px 0.5px 0.1px black;
+}
+main #novedades .transf-news :hover {
+  transform: scale(1.1);
+  transition: all 1s;
+}
+main #novedades img {
+  width: 70%;
+  margin-bottom: 10px;
+}
+main #novedades .bg-pers {
+  background: rgba(0, 0, 0, 0.05);
+}
+main #menu h2 {
+  color: #f2cc0c;
+  font-style: normal;
+}
+main #menu table {
+  font-size: large;
+}
+@media (max-width: 600px) {
+  main #menu table {
+    font-size: medium;
+  }
+}
+main #nosotros {
+  clip-path: polygon(0px 5%, 100% 0%, 100% 93%, 0px 100%);
+}
+main #nosotros h2, main #nosotros p {
+  color: white;
+  text-shadow: 0.5px 0.5px 1px black;
+  font-weight: 100;
+}
+main #nosotros h2 {
+  color: #f2cc0c;
+}
+
+.transf-news :hover {
+  transform: translate(15px, 0px);
+  transition: all 1s;
+}
+
+#contacto {
+  background-color: white;
+  color: black;
+  text-shadow: 0.25px 0.25px 1px gray;
+}
+
+/* Variables */
+footer {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.93);
+  text-align: center;
+  color: white;
+  clip-path: polygon(0px 1%, 100% 17.6%, 100% 100%, 0px 100%);
+}
+
+.container-socialimg {
+  display: flex;
+  height: 2rem;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.container-socialimg div {
+  padding-left: 40px;
+  padding-right: 40px;
+  width: fit-content;
+  width: 40px;
+}
+
+.container-socialimg img {
+  display: inline-block;
+  height: 100%;
+}
+
+/* Variables */
+
+/*# sourceMappingURL=style.css.map */
